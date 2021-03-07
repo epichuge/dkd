@@ -438,7 +438,7 @@ function server(msg) {
 
         try {
 
-  let url = `https://sc.ftqq.com/${sckey}.send`
+  let url = `https://sctapi.ftqq.com/${sckey}.send`
 
   let res = await axios.post(url, `text=多看点(づ ●─● )づ${msg}&desp=${msg}`)
 
