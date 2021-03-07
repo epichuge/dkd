@@ -6,7 +6,7 @@ on:
         branches:
             - main
     schedule:
-        - cron: '27 * * * *'
+        - cron: '36 * * * *'
 jobs:
     build:
         runs-on: ubuntu-latest
